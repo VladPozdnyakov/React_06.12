@@ -44,7 +44,7 @@ class Form extends Component {
     ];
     return (
       <div className={s.form}>
-        <h1 className={s.title}>Create Form</h1>
+        <h1 className={s.title}>Create Your Form</h1>
         <div>
           {inputs.map((input) => {
             return (
