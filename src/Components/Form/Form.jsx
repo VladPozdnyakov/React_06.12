@@ -48,14 +48,22 @@ class Form extends Component {
         <div>
           {inputs.map((input) => {
             return (
-              <Input label={input.label} placeholder={input.placeholder} />
+              <Input
+                label={input.label}
+                placeholder={input.placeholder}
+                key={input.label}
+              />
             );
           })}
         </div>
         <div className="dataArea">
           {textarea.map((item) => {
             return (
-              <Textarea label={item.label} placeholder={item.placeholder} />
+              <Textarea
+                label={item.label}
+                placeholder={item.placeholder}
+                key={textarea.label}
+              />
             );
           })}
         </div>

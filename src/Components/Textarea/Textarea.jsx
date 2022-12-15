@@ -7,6 +7,7 @@ class Textarea extends Component {
       <label className={s.label}>
         {this.props.label}
         <textarea
+          maxLength={240}
           placeholder={this.props.placeholder}
           className={s.textarea}
           rows="7"
