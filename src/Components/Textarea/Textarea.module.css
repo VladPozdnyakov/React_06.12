@@ -22,3 +22,7 @@
 .textarea:focus {
   box-shadow: 0px 0px 29px 5px rgba(44, 42, 168, 0.301);
 }
+.counter {
+  color: grey;
+  font-size: 0.8rem;
+}

@@ -8,6 +8,7 @@
 }
 
 .input {
+  height: 2rem;
   font-family: Georgia, serif;
   border: 2px solid #ddd;
   border-radius: 0.5rem;
