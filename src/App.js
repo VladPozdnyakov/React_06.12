@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-import Form from "./Componets/Form/Form";
+import React, { useState } from "react";
+import "./App.css";
+import Form from "./components/Form/Form";
 
-class App extends Component {
-  render() {
-    return <Form />;
-  }
-}
-
+const App = () => {
+  return <Form />;
+};
 export default App;

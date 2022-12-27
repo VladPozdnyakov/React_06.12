@@ -2,14 +2,14 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 2rem;
+  margin: 1rem;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .textarea {
+  height: 80px;
   font-family: Georgia, serif;
-  height: 7rem;
   border: 2px solid #ddd;
   border-radius: 0.5rem;
   resize: none;
@@ -20,9 +20,14 @@
 }
 
 .textarea:focus {
-  box-shadow: 0px 0px 29px 5px rgba(44, 42, 168, 0.301);
+  box-shadow: 0px 0px 29px 5px rgba(106, 29, 84, 0.301);
 }
-.counter {
-  color: grey;
-  font-size: 0.8rem;
+
+span {
+  color: red;
+  font-size: 13px;
+}
+
+textarea:invalid ~ span {
+  display: block;
 }
